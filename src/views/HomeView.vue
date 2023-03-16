@@ -1,9 +1,20 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import { useHead } from '@vueuse/head'
+
+useHead({
+  title: 'Home',
+  meta: [
+    {
+      name: 'description',
+      content: 'This is the home page'
+    }
+  ]
+})
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <h1 class="text-red-300">Home</h1>
+    <h2>This is subtitle</h2>
   </main>
 </template>
