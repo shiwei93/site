@@ -9,11 +9,11 @@ const toggleDark = useToggle(isDark)
   <button
     type="button"
     title="Toggle light & dark"
-    class="toggle-theme p-1 text-slate-700 dark:text-slate-300 opacity-70 hover:opacity-100 transition-opacity"
+    class="theme-toggle p-1 text-slate-700 dark:text-slate-300 opacity-70 hover:opacity-100 transition-opacity"
     aria-label="auto"
     @click="toggleDark()"
   >
-    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+    <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
       <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
       <g class="toggle-sun-beams" stroke="currentColor">
         <line x1="12" y1="1" x2="12" y2="3" />
