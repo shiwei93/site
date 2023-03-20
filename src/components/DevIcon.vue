@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from 'vue'
 import IconVue from '@/components/icons/IconVue.vue'
 import IconTypescript from '@/components/icons/IconTypescript.vue'
 import IconTailwindcssVue from '@/components/icons/IconTailwindcss.vue'
