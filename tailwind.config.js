@@ -3,7 +3,7 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   content: ['./index.html', './src/**/*.vue'],
   theme: {
-    extend: {}
+    extend: {},
   },
-  plugins: []
+  plugins: [],
 }

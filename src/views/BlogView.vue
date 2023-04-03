@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>This is blog page</div>
+  <h1>This is blog page</h1>
 </template>

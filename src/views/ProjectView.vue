@@ -1,5 +1,6 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>This is project page</div>
+  <h1>This is project page</h1>
+  <div />
 </template>

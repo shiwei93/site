@@ -10,6 +10,6 @@ const props = defineProps<{
 <template>
   <Head>
     <title>{{ props.title }}</title>
-    <mete name="description"> {{ props.description }} </mete>
+    <mete name="description">{{ props.description }}</mete>
   </Head>
 </template>

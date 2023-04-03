@@ -1,11 +1,11 @@
 <!-- This icon is from <https://github.com/Templarian/MaterialDesign>, distributed under Apache 2.0 (https://www.apache.org/licenses/LICENSE-2.0) license-->
 <template>
   <svg
+    id="svg8"
     aria-label="Vue"
     role="img"
     viewBox="0 0 64 64"
     version="1.1"
-    id="svg8"
     sodipodi:docname="vue-icon.svg"
     width="64"
     height="64"
@@ -22,6 +22,7 @@
     </metadata>
     <defs id="defs12" />
     <sodipodi:namedview
+      id="namedview10"
       pagecolor="#ffffff"
       bordercolor="#666666"
       borderopacity="1"
@@ -32,7 +33,6 @@
       inkscape:pageshadow="2"
       inkscape:window-width="1566"
       inkscape:window-height="855"
-      id="namedview10"
       showgrid="false"
       inkscape:zoom="10.546875"
       inkscape:cx="32"
@@ -44,14 +44,14 @@
       inkscape:pagecheckerboard="true"
     />
     <path
-      d="M 39.33333,5.5 32,18.33333 24.666667,5.5 H 0 L 32,61 64,5.5 Z"
       id="path4"
+      d="M 39.33333,5.5 32,18.33333 24.666667,5.5 H 0 L 32,61 64,5.5 Z"
       inkscape:connector-curvature="0"
       style="fill: #42b883; stroke-width: 0.16666667"
     />
     <path
-      d="M 39.33333,5.5 32,18.33333 24.666667,5.5 H 12.833333 L 32,38.83333 51.16667,5.5 Z"
       id="path6"
+      d="M 39.33333,5.5 32,18.33333 24.666667,5.5 H 12.833333 L 32,38.83333 51.16667,5.5 Z"
       inkscape:connector-curvature="0"
       style="fill: #35495e; stroke-width: 0.16666667"
     />

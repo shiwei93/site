@@ -14,18 +14,19 @@ import { navigationLinks } from '@/data/navigationLinks'
       <div class="ml-auto flex items-center">
         <nav class="hidden text-base leading-6 font-semibold space-x-5 md:flex">
           <RouterLink
-            class="text-slate-700 dark:text-slate-300 opacity-70 hover:opacity-100 transition-opacity"
             v-for="{ to, title } in navigationLinks"
-            :to="to"
             :key="title"
-            >{{ title }}</RouterLink
+            class="text-slate-700 dark:text-slate-300 opacity-70 hover:opacity-100 transition-opacity"
+            :to="to"
           >
+            {{ title }}
+          </RouterLink>
         </nav>
         <div
           class="flex items-center border-l-0 border-slate-200 md:border-l ml-6 pl-5 dark:border-slate-800"
         >
           <ThemeSwitcher />
-          <MoreNav></MoreNav>
+          <MoreNav />
         </div>
       </div>
     </div>

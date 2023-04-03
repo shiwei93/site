@@ -6,21 +6,21 @@ import IconTailwindcssVue from '@/components/icons/IconTailwindcss.vue'
 const DevIconsMap = {
   IconVue,
   IconTypescript,
-  IconTailwindcssVue
+  IconTailwindcssVue,
 }
 type Category = keyof typeof DevIconsMap
 
 const Links = {
   IconVue: 'https://vuejs.org/',
   IconTypescript: 'https://www.typescriptlang.org/',
-  IconTailwindcssVue: 'https://tailwindcss.com/'
+  IconTailwindcssVue: 'https://tailwindcss.com/',
 }
 
-const { category } = defineProps<{
+const props = defineProps<{
   category: Category
 }>()
-const Icon = DevIconsMap[category]
-const link = Links[category]
+const Icon = DevIconsMap[props.category]
+const link = Links[props.category]
 </script>
 
 <template>

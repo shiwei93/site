@@ -1,14 +1,14 @@
 export const navigationLinks = [
   {
     to: '/blog',
-    title: 'Blog'
+    title: 'Blog',
   },
   {
     to: '/projects',
-    title: 'Projects'
+    title: 'Projects',
   },
   {
     to: '/about',
-    title: 'About'
-  }
+    title: 'About',
+  },
 ]

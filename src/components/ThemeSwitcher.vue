@@ -25,7 +25,7 @@ const toggleDark = useToggle(isDark)
         <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
       </g>
-      <mask class="moon" id="moon-mask">
+      <mask id="moon-mask" class="moon">
         <rect x="0" y="0" width="100%" height="100%" fill="white" />
         <circle cx="24" cy="10" r="6" fill="black" />
       </mask>
